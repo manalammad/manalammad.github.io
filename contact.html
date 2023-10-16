@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Centered Text</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="contactpage_body">
+
+    <div class="container ">
+        <div class="centered-container ">
+            <div class="text-center ">
+                <a href="portfolio.html" class="elegant-button">Manal</a>
+                <h1 class="mt-5 contact_me">Contact Me</h1>
+
+                <div class="row mt-4 ">
+                    <div class="col-lg-6">
+                        <h2>Contact Information</h2>
+                        <p>Email: manal_ammad@outlook.com</p>
+                        <p>Phone: 0323 6666163</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h2>Contact Form</h2>
+                        <form action="process_contact.php" method="POST">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class "form-label">Your Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message:</label>
+                                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary message_button">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

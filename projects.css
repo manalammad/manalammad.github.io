@@ -1,0 +1,13 @@
+.info{
+    align-items: center;
+}
+.contact_info{
+    align-items: center;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
